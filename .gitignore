@@ -1,0 +1,30 @@
+# Node modules (always ignore)
+node_modules/
+
+# Environment variables (secrets)
+.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: coverage reports from test tools
+coverage/
+
+# Optional: production build output (if used)
+dist/
+build/
+
+# Optional: editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
